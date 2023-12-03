@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1d1d23;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#h1{
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    height: 100vw;
+}
+
+.timer-input {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 600px;
+    color: white;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #34344a;
+    border-radius: 20px;
+}
+.timer-input #set-timmers{
+    display: flex;
+}
+
+.timer-input input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    width: 45px;
+    border-bottom: 2px solid white;
+    margin: 0px 10px 0px 10px;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-input input::placeholder{
+    color: white;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-size: 25px;
+}
+
+.active-timers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #34344a;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 70px;
+    width: 600px;
+    color: white;
+}
+
+.travelTime{
+    width: 200px;
+    font-size: 35px;
+    justify-content: space-between;
+}
+
+.stop-button{
+    background-color: #f0f775;
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+.timer-ended {
+    background-color: #f0f775;
+    /* Add other styles according to your Figma design */
+}
+
+#startTimerButton{
+    background-color: #f0f775;
+    width: 70px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+#currentTimer{
+    background-color: #39393e;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+#some{
+    color: white;
+    margin-top: 20px;
+}
+
+#activeTimersContainer{
+    margin-top: 20px;
+}
+
+.timeUp{
+    height: 45px;
+    width: 350px;
+    display: flex;
+    justify-content: right;
+    font-size: 35px;
+    color: #34344a;
+    font-weight: 700;
+}
+
+.stop{
+    background-color: #34344a;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 70px;
+    height: 35px;
+}
